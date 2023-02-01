@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  margin: 10px 10px auto 10px;
+  border: 1px solid red;
+}
+.main h1 {
+  text-align: center;
+  -webkit-text-decoration: underline blue 1px;
+          text-decoration: underline blue 1px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 10px 10px 10px;
+}
+.grid-container article {
+  border: 1px solid green;
+  text-align: center;
+}
+.grid-container article .article1,
+.grid-container article .article3 {
+  color: blue;
+}
+.grid-container article .article2,
+.grid-container article .article4 {
+  color: red;
+}
+.grid-container p {
+  font-size: 20px;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+$primary-color:red;
+$secondary-color:blue;
+$tertiary-color:green;
+
+html,
+body {
+    height:100vh;
+    width: 100%;
+    
+}
+
+.main {
+    margin:10px 10px auto 10px;
+    border:1px solid $primary-color;
+    h1 {
+    text-align: center;
+    text-decoration: underline $secondary-color 1px;
+    color: $tertiary-color;
+    margin-bottom: 10px;
+}
+    
+}
+
+.grid-container {
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    margin: 0 10px 10px 10px;
+    
+    article {
+    border:1px solid $tertiary-color;
+    text-align: center;
+    
+        .article1,
+        .article3  {
+            color: $secondary-color;
+        }
+        .article2,
+        .article4 {
+            color: $primary-color;
+        }
+    }
+    p {
+    font-size:20px;
+    padding:20px;
+    }
+}
+
+
+
+
