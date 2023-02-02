@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.main h2, .main h1 {
+  text-align: center;
+  color: green;
+  margin-bottom: 0.625rem;
+}
+
+.main {
+  margin: 0.625rem 0.625rem auto 0.625rem;
+  border: 1px solid red;
+}
+.main h1 {
+  -webkit-text-decoration: underline blue 1px;
+          text-decoration: underline blue 1px;
+}
+.main h2 {
+  border: 1px solid red;
+  padding: 1rem;
+  margin: 0 40%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0rem 0.625rem 0.625rem 0.625rem;
+}
+
+.article1,
+.article3 {
+  color: blue;
+  border: 1px solid green;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.article2,
+.article4 {
+  color: red;
+  border: 1px solid green;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer {
+  color: green;
+  border: 1px solid blue;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.625rem;
+}/*# sourceMappingURL=style.css.map */
